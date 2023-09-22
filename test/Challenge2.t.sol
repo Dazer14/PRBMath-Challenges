@@ -22,9 +22,6 @@ contract Challenge2Test is Test {
     function testTriangleArea() public {
         assertEq(challenge2.triangleArea(3, 4, 5), 6);
         assertEq(challenge2.triangleArea(34, 77, 55), 826);
-        // assertEq(challenge2.triangleArea(5, 12), 13);
-        // assertEq(challenge2.triangleArea(18, 29), 34);
-        // assertEq(challenge2.triangleArea(75, 175), 190);
     }
     
 }
